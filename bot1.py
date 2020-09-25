@@ -136,13 +136,13 @@ class Bot(discord.Client):
 
         # embed creation
         value=random.randint(0,0xffffff)
-        self.embed=discord.Embed(title="**DAYNITE WORLD __|__ PRO™**", description="<:loco:643153076676591656>**Crowd Results!**", color=0x04B4AE)
+        self.embed=discord.Embed(title="****", description="****", color=0x04B4AE)
         self.embed.add_field(name="`**__OPTION ❶__**`", value="0.00", inline=False)
         self.embed.add_field(name="`**__OPTION ❷__**`", value="0.00", inline=False)
         self.embed.add_field(name="`**__OPTION ❸__**`", value="0.00", inline=False)
         self.embed.add_field(name="**__Erased Answer :-__**", value="0",inline=False)
         self.embed.add_field(name="**__Crowd Answer :-__**", value="0",inline=False)
-        self.embed.set_footer(text=f"  Loco Trivia Answer | Ashwin々4734™〢", icon_url="https://cdn.discordapp.com/attachments/684305785928286213/710355842180055078/Screenshot_2020-03-17-18-22-32-298.jpeg")
+        self.embed.set_footer(text=f"", icon_url="https://cdn.discordapp.com/attachments/684305785928286213/710355842180055078/Screenshot_2020-03-17-18-22-32-298.jpeg")
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/684305785928286213/710355842180055078/Screenshot_2020-03-17-18-22-32-298.jpeg")
          #self.embed.set_image(url="https://i.imgur.com/b6fW3cI.gif")
         # await bot.add_reaction(message = "self.embed",emoji = ":wink")
@@ -310,7 +310,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NjU3ODI3MTCDF_odM'))
+    loop.create_task(bot.start('NzU3ODk5NDQ2MTk2NjMzNjkx.X2nG3Q.xgNbOJLzoPHddUhQOqPUjskxHm0'))
     loop.run_forever()
 
 
@@ -319,7 +319,7 @@ def selfbot_process(update_event, answer_scores):
     selfbot = SelfBot(update_event, answer_scores)
 
     loop = asyncio.get_event_loop()
-    loop.create_task(selfbot.start('NjU1MzQyOT8wdGbNXk',
+    loop.create_task(selfbot.start('loop.create_task(selfbot.start('NzIyNDc5ODMwMjQ3MDE0NTEx.X2DBMg.nf9lXXe0iSi11EEGwrAxX2hTbOc',
                                      bot=False))
     loop.run_forever()
 
